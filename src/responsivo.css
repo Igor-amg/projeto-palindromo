@@ -1,0 +1,18 @@
+@media (max-width: 620px) {
+    .centralizar{
+        margin-top: 60%;
+    }
+    .container-verificador{
+        max-width: 375px;
+        max-height: 375px;
+    }
+    .verificador-titulo h1{
+        font-size: 30px;
+    }
+    .verificador-instrucao .titulo-instrucao{
+        font-size: 22px;
+    }
+    .verificador-instrucao .texto-instrucao{
+        font-size: 15px;
+    }
+}
