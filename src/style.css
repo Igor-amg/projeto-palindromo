@@ -1,6 +1,6 @@
 body {
   background-color: #f4a261;
-  font-family: "Permanent Marker", cursive;
+  font-family: cursive, sans-serif ;
   color: #2a9d8f;
 }
 
@@ -55,12 +55,47 @@ body {
   text-align: center;
 }
 
-.container-form{
-  margin: 25px;
+.frase-palindromo{
+  padding: 30px 15px;
+  
+}
+.box-verificador{
+  display: flex;
+  
+}
+input{
+  width: 70%;
+  height: 15px;
+  border: none;
+  border-bottom: 2px solid #e9c46a;
+  padding: 6px 15px;
+  outline: none;
+  border-radius: 10px ;
+  margin-right: 20px;
 }
 
-.button{
-  width: 100px;
+input:focus{
+ border-bottom: 2px solid #2a9d8f;
+ 
+}
+
+#btn{
+  width: 24.5%;
   height: 25px;
-  margin: 15px 30px;
+  border: none;
+  background-color: #2a9d8f;
+  border-radius: 10px;
+  float: right;
+  color: #e9c46a;
+}
+#btn:hover{
+  color: #264653;
+  cursor: pointer;
+}
+#resultado{
+  margin-top: 25px ;
+  text-align: center;
+  font-weight: 500;
+  display: block;
+  font-size: 25px;
 }

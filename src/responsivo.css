@@ -16,4 +16,7 @@
     .verificador-instrucao .texto-instrucao{
         font-size: 15px;
     }
+    #resultado{
+        font-size: 20px;
+    }
 }
